@@ -1,0 +1,62 @@
+
+Timestamp: 2026-01-12T18:25:08.346Z
+Message: axios is not defined
+Response Data: N/A
+------------------------------------------------
+
+Timestamp: 2026-01-12T18:25:33.370Z
+Message: Request failed with status code 404
+Response Data: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+------------------------------------------------
+
+Timestamp: 2026-01-12T18:26:05.679Z
+Message: Request failed with status code 404
+Response Data: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+------------------------------------------------
+
+Timestamp: 2026-01-12T18:26:36.917Z
+Message: Request failed with status code 404
+Response Data: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+------------------------------------------------
+
+Timestamp: 2026-01-12T18:27:53.407Z
+Message: Request failed with status code 404
+URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=HIDDEN
+Response Data: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+------------------------------------------------
+
+Timestamp: 2026-01-12T18:28:38.363Z
+Message: Request failed with status code 404
+URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent
+Response Data: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+------------------------------------------------
