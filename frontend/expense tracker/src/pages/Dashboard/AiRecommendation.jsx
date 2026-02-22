@@ -241,18 +241,18 @@ const AiRecommendation = () => {
                                 <ReactMarkdown
                                     remarkPlugins={[remarkGfm]}
                                     components={{
-                                        table: ({ node, ...props }) => <table className="w-full text-left border-collapse my-4" {...props} />,
-                                        thead: ({ node, ...props }) => <thead className="bg-gray-100 dark:bg-gray-800" {...props} />,
-                                        th: ({ node, ...props }) => <th className="border border-gray-200 dark:border-gray-700 p-2 font-semibold" {...props} />,
-                                        td: ({ node, ...props }) => <td className="border border-gray-200 dark:border-gray-700 p-2" {...props} />,
-                                        h1: ({ node, ...props }) => <h1 className="text-2xl font-bold my-4" {...props} />,
-                                        h2: ({ node, ...props }) => <h2 className="text-xl font-bold my-3" {...props} />,
-                                        h3: ({ node, ...props }) => <h3 className="text-lg font-bold my-2" {...props} />,
-                                        ul: ({ node, ...props }) => <ul className="list-disc pl-5 my-2" {...props} />,
-                                        ol: ({ node, ...props }) => <ol className="list-decimal pl-5 my-2" {...props} />,
-                                        li: ({ node, ...props }) => <li className="mb-1" {...props} />,
-                                        p: ({ node, ...props }) => <p className="mb-3 leading-relaxed" {...props} />,
-                                        strong: ({ node, ...props }) => <strong className="font-bold text-blue-600 dark:text-blue-400" {...props} />,
+                                        table: ({ ...props }) => <table className="w-full text-left border-collapse my-4" {...props} />,
+                                        thead: ({ ...props }) => <thead className="bg-gray-100 dark:bg-gray-800" {...props} />,
+                                        th: ({ ...props }) => <th className="border border-gray-200 dark:border-gray-700 p-2 font-semibold" {...props} />,
+                                        td: ({ ...props }) => <td className="border border-gray-200 dark:border-gray-700 p-2" {...props} />,
+                                        h1: ({ ...props }) => <h1 className="text-2xl font-bold my-4" {...props} />,
+                                        h2: ({ ...props }) => <h2 className="text-xl font-bold my-3" {...props} />,
+                                        h3: ({ ...props }) => <h3 className="text-lg font-bold my-2" {...props} />,
+                                        ul: ({ ...props }) => <ul className="list-disc pl-5 my-2" {...props} />,
+                                        ol: ({ ...props }) => <ol className="list-decimal pl-5 my-2" {...props} />,
+                                        li: ({ ...props }) => <li className="mb-1" {...props} />,
+                                        p: ({ ...props }) => <p className="mb-3 leading-relaxed" {...props} />,
+                                        strong: ({ ...props }) => <strong className="font-bold text-blue-600 dark:text-blue-400" {...props} />,
                                     }}
                                 >
                                     {recommendation}

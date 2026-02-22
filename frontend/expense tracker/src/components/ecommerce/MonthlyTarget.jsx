@@ -72,7 +72,7 @@ export default function MonthlyTarget({ monthlyIncome = [], monthlyExpense = [],
                         fontWeight: "600",
                         offsetY: -40,
                         color: "#1D2939",
-                        formatter: function (val) {
+                        formatter: function () {
                             return displayPercentage + "%";
                         },
                     },

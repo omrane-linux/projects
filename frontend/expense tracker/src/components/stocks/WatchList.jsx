@@ -32,6 +32,7 @@ const WatchList = () => {
                 asset.symbol.toLowerCase().includes(searchTerm.toLowerCase()) ||
                 asset.description.toLowerCase().includes(searchTerm.toLowerCase())
             );
+            // eslint-disable-next-line react-hooks/set-state-in-effect
             setRecommendations(filtered);
             setShowDropdown(true);
         } else {

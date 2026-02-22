@@ -79,17 +79,8 @@ const AppHeader = () => {
             )}
           </button>
 
-          <Link to="/" className="lg:hidden">
-            <img
-              className="dark:hidden"
-              src="./images/logo/logo.svg"
-              alt="Logo"
-            />
-            <img
-              className="hidden dark:block"
-              src="./images/logo/logo-dark.svg"
-              alt="Logo"
-            />
+          <Link to="/" className="lg:hidden text-lg font-bold text-gray-800 dark:text-white">
+            Expense Tracker
           </Link>
 
           <button

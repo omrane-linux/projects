@@ -5,8 +5,9 @@ const Footer = () => {
   return (
     <footer id='contact' className="flex flex-wrap justify-center lg:justify-between overflow-hidden gap-10 md:gap-20 py-16 px-6 md:px-16 lg:px-24 xl:px-32 text-[13px] text-gray-500 bg-black">
                 <div className="flex flex-wrap items-start gap-10 md:gap-[60px] xl:gap-[140px]">
-                    <a href="https://prebuiltui.com">
-                    </a>
+                    <div className="text-xl font-bold text-slate-100">
+                        Expense Tracker
+                    </div>
                     <div>
                         <p className="text-slate-100 font-semibold">Product</p>
                         <ul className="mt-2 space-y-2">
@@ -66,7 +67,7 @@ const Footer = () => {
                             </svg>
                         </a>
                     </div>
-                    <p className="mt-3 text-center">© 2025 <a href="https://prebuiltui.com">AiFinanceVerse</a></p>
+                    <p className="mt-3 text-center">© 2025 AiFinanceVerse</p>
                 </div>
             </footer>
   )
