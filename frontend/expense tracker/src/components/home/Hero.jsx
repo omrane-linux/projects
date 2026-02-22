@@ -70,7 +70,7 @@ const Hero = () => {
       </svg>
       <nav className="z-50 flex items-center justify-between w-full py-4 px-6 md:px-16 lg:px-24 xl:px-32 backdrop-blur">
         <a href="/" className="text-2xl font-bold tracking-tight">
-          Expense Tracker
+          AiFinVerse
         </a>
 
         <div className="hidden md:flex items-center gap-8 transition duration-500">

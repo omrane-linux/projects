@@ -67,11 +67,11 @@ const AppSidebar = () => {
         <Link to="/" className="flex items-center gap-2">
           {isExpanded || isHovered || isMobileOpen ? (
             <span className="text-xl font-bold text-gray-800 dark:text-white">
-              Expense Tracker
+              AiFinVerse
             </span>
           ) : (
             <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-brand-500 text-white font-bold text-lg">
-              E
+              A
             </span>
           )}
         </Link>

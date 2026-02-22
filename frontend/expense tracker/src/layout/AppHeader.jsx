@@ -80,7 +80,7 @@ const AppHeader = () => {
           </button>
 
           <Link to="/" className="lg:hidden text-lg font-bold text-gray-800 dark:text-white">
-            Expense Tracker
+            AiFinVerse
           </Link>
 
           <button
